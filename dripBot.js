@@ -229,7 +229,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 	datamonsterConfigured = false,
 	stage3counter = 0,
 	clickCountDivisor = 1,
-	excludedPowerups = ["Spring Framework"],
+	excludedPowerups = [],
 	excludedUpgrades = [];
 
 	var beautify = function(e) {
